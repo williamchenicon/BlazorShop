@@ -301,7 +301,9 @@ namespace BlazorShop.WebApi.Controllers
                 UserEmail = sessionData.CustomerDetails.Email,
                 ReceiptDate = DateTime.Now,
                 ReceiptName = "Receipt Nr. " + Guid.NewGuid(),
-                ReceiptUrl = result.Charges.Data.FirstOrDefault().ReceiptUrl,
+                ReceiptUrl = result.LatestCharge.ReceiptUrl,
+
+                // result.Charges.Data.FirstOrDefault().ReceiptUrl,
             });
         }
     }

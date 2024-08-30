@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 	<RootNamespace>BlazorShop.WebClient</RootNamespace>
@@ -15,25 +15,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blazored.FluentValidation" Version="2.1.0" />
-    <PackageReference Include="Blazored.LocalStorage" Version="4.3.0" />
-    <PackageReference Include="Blazored.Toast" Version="4.0.0" />
-    <PackageReference Include="FluentValidation" Version="11.5.0" />
-    <PackageReference Include="MatBlazor" Version="2.8.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="7.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.3" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.27.0" />
-    <PackageReference Include="MudBlazor" Version="6.0.7" />
-    <PackageReference Include="Polly" Version="7.2.4" />
-    <PackageReference Include="Radzen.Blazor" Version="3.14.2" />
-    <PackageReference Include="Serilog" Version="2.12.0" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+    <PackageReference Include="Blazored.FluentValidation" />
+    <PackageReference Include="Blazored.LocalStorage" />
+    <PackageReference Include="Blazored.Toast" />
+    <PackageReference Include="FluentValidation" />
+    <PackageReference Include="MatBlazor" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" />
+    <PackageReference Include="MudBlazor" />
+    <PackageReference Include="Polly" />
+    <PackageReference Include="Radzen.Blazor" />
+    <PackageReference Include="Serilog" />
+    <PackageReference Include="StyleCop.Analyzers">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.27.0" />
-    <PackageReference Include="Toolbelt.Blazor.LoadingBar" Version="13.1.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" />
+    <PackageReference Include="Toolbelt.Blazor.LoadingBar" />
   </ItemGroup>
 
   <ItemGroup>
